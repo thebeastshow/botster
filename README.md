@@ -6,6 +6,7 @@ A little Discord/Twitch bot named botster that helps your Discord mods get text 
 
 ## Discord bot based on the tutorial here: 
 [Link to example!](https://boostlog.io/@junp1234/how-to-write-a-discord-bot-in-python-5a8e73aca7e5b7008ae1da8b) 
+Follow these steps to get your Discord Bot authenticated and run on your personal server
   
 ## Usage
 To setup with Steamlabs OBS or OBS Studio, simply configure the "updateFile" and "updateChannel" in the botconfig json. The updateChannel messages will be copied into the updateFile. New messages will completely overwrite new messages in the file. 
