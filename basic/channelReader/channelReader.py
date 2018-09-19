@@ -13,6 +13,8 @@ from discord.ext import commands
 # @author Otis Anderson - busterstopit@gmail.com  #
 ###################################################
 
+bot = commands.Bot(command_prefix='$!@#')
+
 #load config file
 with open('botconfig.json') as json_data_file:
 	config = json.load(json_data_file)
@@ -21,6 +23,13 @@ updateFile = config["updateFile"]
 updateChannel = config["updateChannel"]
 token = config["token"]
 
+
+@bot.event
+async def on_ready():
+    print('Logged in as')
+    print(bot.user.name)
+    print(bot.user.id)
+    print('------')
 	
 ###########################
 #    BOT EVENT SECTION    #
