@@ -19,6 +19,7 @@ with open('botconfig.json') as json_data_file:
 	
 updateFile = config["updateFile"]
 updateChannel = config["updateChannel"]
+token = config["token"]
 
 ###########################
 # BOTSTER COMMAND SECTION #
@@ -115,4 +116,4 @@ async def help(ctx):
 
     await ctx.send(embed=embed)
 
-bot.run('NDg5OTU1MTE4MjQyODU2OTcw.DnySog.JElGYdtKyGXLFhNXD9fetZmxLVY')
+bot.run(token)
