@@ -1,5 +1,6 @@
 # botster
 A little Discord/Twitch bot named botster that helps your Discord mods get text on your stream!
+Check it out [live on Twitch!](https://www.twitch.tv/thebestshow)
 
 ![Image of Output](https://github.com/thebeastshow/botster/blob/master/img/caller.JPG)
 
